@@ -26,7 +26,8 @@ instance/             # Flask/FastAPI instance folder (if any)
 venv/
 env/
 .venv*/               # virtualenv variations
-*.env.local           # local environment overrides
+.env 
+.env.*         # local environment overrides
 
 # --- IDE / Editor ---
 .vscode/

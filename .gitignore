@@ -1,0 +1,52 @@
+# --- Node / SvelteKit ---
+node_modules
+.svelte-kit/
+.build/
+.output/
+.vercel/
+.netlify/
+.wrangler/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock             # Ignore lockfiles if you don't want to commit them (optional)
+coverage/             # Vitest/Jest coverage reports
+*.log                 # npm/yarn/pnpm debug logs
+
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*.pdb
+*.egg-info/
+*.egg
+*.sqlite3             # if you use SQLite for testing
+instance/             # Flask/FastAPI instance folder (if any)
+
+# --- Environments ---
+.venv/
+venv/
+env/
+.venv*/               # virtualenv variations
+*.env.local           # local environment overrides
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Build Artifacts ---
+dist/
+dist-ssr/
+public/build/
+*.tar.gz
+
+# --- Temporary / OS ---
+*.tmp
+*.bak
+*.log
+*.DS_Store
+Thumbs.db
+
+# --- HuggingFace / OpenAI ---
+hf_cache/
+openai_cache/
